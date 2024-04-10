@@ -1,0 +1,322 @@
+@import url('https://fonts.googleapis.com/css2?family=Teko:wght@300..700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} 
+body {
+    background-color: rgb(51, 46, 46);
+}
+
+/*Header*/
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    background-color: #4f16d3d5;
+    height: 120px;
+    width: 100%;
+    border-bottom: black 2px solid;
+    top: 0px;
+    position: sticky;
+    z-index: 1;
+}
+.logoprimario {
+    height: 100px;
+    width: 100px;
+    left: 100px;
+}
+.titulo{
+    position: relative;
+    right: 390px;
+    text-align: center;
+    font-size: 72px;
+    text-shadow: black;
+    text-transform: uppercase;
+    font-family: "Teko", sans-serif;
+    top: 8px;
+}
+.navbar-links{
+    display: flex;
+    list-style: none;      
+    gap: 20px;
+    color: white;
+
+}
+.navbar-link{
+    padding: 10px 20px;
+    cursor: pointer;
+
+}
+.navbar-link a{
+   display: block;
+   padding: 5px 25px;
+   color: white;
+   text-decoration: none;
+   font-size: 18px;
+}
+/*Fin Header*/
+
+
+/*Main Inicio*/
+
+.main-inicio-foto1 {
+    width: 100%;
+    height: 1100px;
+    background-color: rgb(48, 44, 44);
+    padding: 10px 0;
+}
+
+.main-inicio-productos1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items: center;
+}
+/*Fin Main Inicio*/
+
+
+/*Main Tienda*/
+.main-tienda-texto1 {
+    color: red;
+    text-align: center;
+    font-size: 60px;
+    text-shadow: black;
+    text-transform: uppercase;
+}
+.main-tienda{
+    display: flex;
+    justify-content: center;
+    margin: 0px;
+    flex-wrap: wrap;
+    padding: 10px;
+}
+.main-tienda-productos{
+    position: relative;
+    width: 400px;
+    height: 400px;
+    background-color: #f2dcfe;
+    margin: 20px;
+    padding: 40px;
+    border-radius: 20px;
+    border: 2px solid black;
+    box-shadow: 6px 5px 9px 0px rgba(0,0,0,0.75);
+}
+.main-tienda-productos-1{
+    position: relative;
+    left: 50px;
+    width: 200px;
+    height: 200px;
+    padding: 10px;
+}
+.main-tienda-productos-2{
+    position: relative;
+    right: 14px;
+    width: 350px;
+    height: 130px;
+    padding: 5px;
+}
+.main-tienda-productos-3{
+    position: relative;
+    left: 5px;
+    top: 10px;
+    height: 150px;
+    width: 300px;
+    padding: 10px;
+}
+.main-tienda-productos-teclado{
+    position: relative;
+    right: 3px;
+    width: 330px;
+    height: 150px;
+    padding: 10px;
+}
+.main-tienda-productos-texto{
+    position: relative;
+    text-align: center;
+}
+
+.main-tienda-productos-textonotebook{
+    position: relative;
+    text-align: center;
+    bottom: 75px;
+}
+.main-tienda-productos-button{
+    position: relative;
+    left: 85px;
+    background-color: #171717;
+    border-radius: 15px;
+    margin-top: 10px;
+    padding: 10px;
+    font-size: 0.95rem;
+    color: rgb(233, 231, 231);
+    font-family: 'Quicksand', sans-serif;
+    transition: 0.3s;
+}
+
+
+/*Fin Main Tienda*/
+
+
+/*Main Contacto*/
+    
+
+.main-contacto-titulo {
+    font-family: 'Quicksand', sans-serif;
+    padding-bottom: 10px;
+    font-size: 1.70rem;
+}
+
+.form-contacto{
+    font-family: 'Quicksand', sans-serif;
+    padding: 50px 55px;
+    margin: 55px auto;
+    box-shadow: 0 0 20px rgb(0, 0, 0, 0.4);
+    border-radius: 20px;
+    text-align: center;
+    width: 450px;
+    background: linear-gradient(to bottom, #ffffff, #ba58e0);
+    background-color: #171717;
+
+}
+
+.form-contacto-grupo{
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+}
+
+.form-contacto-grupo-label{
+    color: #9d4aea;
+    padding-top: 13px;
+    font-size: 20px;
+    font-weight: 600;
+    text-shadow: 1px 1px 1px black;
+}
+
+.form-contacto-grupo-input{
+    width: 100%;
+    background-color: transparent;
+    border: 1px solid;
+    padding: 5px 10px;
+    border-radius: 6px;
+    margin-bottom: 10px;
+    transition: 0.3s;
+}
+
+.form-contacto-grupo-input:focus{
+    border: 2px solid #7d2bc9;
+    outline: none;
+
+}
+.form-contacto-grupo-boton{
+    width: 100%;
+    background-color: rgb(252, 252, 252);
+    font-weight: bolder;
+    border: 0;
+    color: #644aea;
+    border-radius: 5px;
+    padding: 10px 5px;
+}
+
+.section2-main2-h2{
+    margin-bottom: 5px;
+    font-size: 30px;
+    line-height: 40px;
+    font-weight: 700;
+    text-align: center;
+    color: black;
+    text-shadow: #171717 1px 1px 1px;
+}
+
+.section2-main2-p{
+    margin-bottom: 5px;
+    font-size: 20px;
+    line-height: 25px;
+    text-align: center;
+    color: black;
+}
+
+.nav-main2{
+    display: flex;
+    justify-content: center;
+
+}
+.nav-links{
+    display: flex;
+    list-style: none;      
+    gap: 20px;
+    color: white;
+}
+
+.nav-link{
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.nav-link a{
+    display: block;
+    padding: 5px 15px;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-size: 18px;
+}
+/*Fin Main Contacto*/ 
+
+
+/*Main Carrito*/
+.main-login-texto1 {
+    color: red;
+    text-align: center;
+    font-size: 60px;
+    text-shadow: black;
+    text-transform: uppercase;
+}
+.main-login{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+/*Fin Main Login*/
+
+/*Footer*/
+.footer{
+    background-color: #634af5;
+    border-top: #171717 2px solid;
+}
+.footer-texto1 {
+    color: black;
+    text-align: center;
+}
+
+.footer-texto2 {
+    color: black;
+    font-size: 18px;
+    font-weight: 600;
+}
+.footer-nav a {
+    text-decoration: none;
+}
+/*Fin Footer*/
+
+
+@media (max-width: 1540px){
+    .titulo{
+        position: relative;
+        left: 10px;
+    }
+
+}
+
+@media (max-width: 920px){
+    .header{
+        width: 100%;
+    }
+    
+    
+}
+
